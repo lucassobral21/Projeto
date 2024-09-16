@@ -1,0 +1,76 @@
+/* Reset de informaçpes */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to right, #3452bc, rgb(39, 168, 197));
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    color: beige;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+
+
+.conteudo-input {
+    width: 450px;   
+    height: 400px;
+    margin: 30px auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    opacity: 10;
+    padding-top: 20px;
+    border-radius: 30px;
+    }
+
+.conteudo-input div{
+    
+    
+    width: 50%;
+    margin: 20px auto;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 1%;
+    color: rgb(34, 62, 126);
+    
+}
+
+.conteudo-input label{
+    
+}
+
+.conteudo-input input{
+    border: none;
+    outline: none;
+    background-color: antiquewhite;
+   
+   
+}
+
+.button-input {
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+    padding: 2%;
+    border-radius: 40px;
+    background-color: antiquewhite;
+    color: rgb(34, 62, 126);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.button-input:hover {
+    background-color: rgb(27, 63, 110);
+    color: wheat;
+}
+
